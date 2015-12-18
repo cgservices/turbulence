@@ -33,8 +33,6 @@ In your project directory, run:
 
     $ bule
 
-and it will generate (and open) turbulence/turbulence.html 
-
 Supported SCM systems
 ---------------------
 Currently, bule defaults to using git. If you are using Perforce, call it like so:
