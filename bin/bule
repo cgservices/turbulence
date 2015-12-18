@@ -11,4 +11,5 @@ unless Turbulence::ChecksEnvironment.scm_repo?(Dir.pwd)
 end
 
 cli.generate_bundle
-cli.open_bundle
+# Do not open the bundle for CI
+# cli.open_bundle
